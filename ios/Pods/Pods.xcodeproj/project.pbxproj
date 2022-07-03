@@ -1,0 +1,856 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0C8E1784FF8D466F9685DF5190E07738 /* TrueSDK-TrueSDK in Resources */ = {isa = PBXBuildFile; fileRef = 04F453B10C4B3BB4542D4156901418A6 /* TrueSDK-TrueSDK */; };
+		10167B09A68B6B9E3C510D012FAFF780 /* TCTrueSDK.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BD8A72607C81C95B9E57337292F1976 /* TCTrueSDK.m */; };
+		189E6EA992E20A230E7C939EEF07C1F7 /* TCUpdateProfileRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 80FD313AE22CC4E3DC09338F763C61E8 /* TCUpdateProfileRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2CAF8377CB965C4B684ED21B8C86EDD3 /* TCUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = B1C58463CBCAF090139E3F0C3260864E /* TCUtils.m */; };
+		3A1395072F35461019524FD99A4E0ED8 /* TCVersion.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E07C8CAE00ABF30E1BACE0E6AEE8AA9 /* TCVersion.m */; };
+		408363DC692177155077BC2985A727C9 /* TCTrueProfileResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 234CA6EECB953454C54020432FB77B9D /* TCTrueProfileResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		42028AE0FDD0FEBB103621832899D47B /* TCTrueSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 81246D46C1163CC906CEACB1AC00BEDD /* TCTrueSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		43DEDA3AFF4B92921C8B68E3AA0B9F27 /* TCBaseRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B1E9CF5D1DB3E9BD960641EB5BF3948 /* TCBaseRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		44C8A6085629D882EC5D804E246170C7 /* NSURL+TrueSDK.m in Sources */ = {isa = PBXBuildFile; fileRef = 94358026E3D782349A5B99B41B5F3A2D /* NSURL+TrueSDK.m */; };
+		4B5B159606543E3B5A77902759D4DFCF /* TCTrueProfile.h in Headers */ = {isa = PBXBuildFile; fileRef = 8DB76AC3EC33FB9C81C3F6DE3A2BD489 /* TCTrueProfile.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4C0966E445EFF97A5624C132DD46F97F /* NSURL+TrueSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 484A167E02B74510F5D15194A573EA92 /* NSURL+TrueSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4D155E651A1CB152D87D8BA12FEA33D8 /* TCTrueProfileRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = ACB5A73021915CA74FA420ECBF208E08 /* TCTrueProfileRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		51F8146A05C0806193E95A89C19ED466 /* DisclaimerView.h in Headers */ = {isa = PBXBuildFile; fileRef = 10D3FADEECE481AC048044F6C4834C39 /* DisclaimerView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52DF1F5C200575819E2A81D1FE255243 /* NSDictionary+TrueSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 0CE1786EC18053314E76F8FBFFD8609E /* NSDictionary+TrueSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5AEACEBC092C610B4D71124B268B4440 /* TCTrueProfileResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D5033C01BE6BE1ED3D2C2D059E78B1E /* TCTrueProfileResponse.m */; };
+		6221A95519B4DF74BAC2319381E69650 /* Pods-TruecallerSignin-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E16C72E7871580F0A5F0619F68A8727A /* Pods-TruecallerSignin-dummy.m */; };
+		6889158A029CD4A86F51B14ED47A3CBF /* TCVersion.h in Headers */ = {isa = PBXBuildFile; fileRef = F4AB0BA9043FB83354EC16E5EFA4630A /* TCVersion.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		75B92C411945486F10B409D7F2A85971 /* TCLoginCodeRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DEF79344E0053DA0FA24DE811215B7B /* TCLoginCodeRequest.m */; };
+		7648D0B7D4A05F6DA1BFEF777FCDC147 /* TCLoginCodeRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = D33C8B4BC9056ACD10DB57F97D502CB0 /* TCLoginCodeRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7F431BE0945619638639D3ABB92335BD /* TCTrueProfile.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EF1201B63DABB1FC4B4FD063FB3269A /* TCTrueProfile.m */; };
+		82864B02BCFBC3290D750C101A269D9A /* en.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 2DD806F246C3BA90C4FB040656D5D6B3 /* en.lproj */; };
+		8DACC18256034826BCB05569C6DA2256 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49C140C99B248D77F49B7FB5F2978EE5 /* Assets.xcassets */; };
+		905FD44B879FA7B73F583D90276C1DA0 /* TrueSDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F007DDA0103BC7AEBD2CA4905ABB3CCF /* TrueSDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		974AB0F0B89F87ACAD25EC2A8017647C /* TCError.h in Headers */ = {isa = PBXBuildFile; fileRef = A08F9F3FF1C48A63402D1DF0995FC1B8 /* TCError.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9AF3751D4330C8D4833151A98AC8069C /* TCProfileRequestButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 61A5114646BD8811122AB6859E7285DF /* TCProfileRequestButton.m */; };
+		9B2225C9109418D84AF788841BF3C863 /* NSDictionary+TrueSDK.m in Sources */ = {isa = PBXBuildFile; fileRef = 34B7A6B8B2B61669C38381EC75C9B7A3 /* NSDictionary+TrueSDK.m */; };
+		9D071037DF752FDEC00E5F44F6D17F53 /* TCProfileRequestButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 3113A02C2764B48EC503B8151415D87B /* TCProfileRequestButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A260F58689EDF286799C1DF50D6E9EA9 /* TCLoginCodeResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C7D6A4F8BF636257D55239A3142E98F /* TCLoginCodeResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A6CFD6B4B0E8CFB6AAD164BF0DBC2D3A /* TCLoginCodeResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B6BCD077393FB4640A2CC520415D112 /* TCLoginCodeResponse.m */; };
+		A8A6522876832428A732ACCCB92F5693 /* TCUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 395217FF3782CA8B58C89CE4439DCA27 /* TCUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AC86A7C4FF0111412CB7D87B5ABD3EB8 /* TrueSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BCC58D23A10240567ABAA33A9286E903 /* TrueSDK-dummy.m */; };
+		AE2CBD236AEFD24D8D13C1DF0C55DA63 /* TCTrueProfileRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DF6C896C52304EADCF8FC696E124940 /* TCTrueProfileRequest.m */; };
+		B3CFDADD7640D18A2A9A5C8951731409 /* TCBaseRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B5B582653FE34751D9C4F9274A9F6A9 /* TCBaseRequest.m */; };
+		B4D14DF1D1E431626D36A213BDBC3CD1 /* TCUpdateProfileRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 57F595132F66459573EA937D7E4B17F1 /* TCUpdateProfileRequest.m */; };
+		C1BB986C5F77DB3B9EC884D373F6C04D /* TCTrueSDKLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = FDD2494194024A08BCBBA1BA8C48B042 /* TCTrueSDKLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C9EA4DD9CBA141BE8FFCD67A68E5F1A3 /* Pods-TruecallerSignin-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6575646042028033FE5C64E6E7B5E0B5 /* Pods-TruecallerSignin-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CFBD30A6316FF7CA680A3504A994BF2F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		D1E09819F90B42B1355A40BA5CC885AF /* hr.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 440B0564A1D46FD70EB0FF77BF12958C /* hr.lproj */; };
+		D83126998C65AC3FC43469E3CE224BB4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		D8F03D3B57D30A0D7AF6EBE84361EAF8 /* hi.lproj in Resources */ = {isa = PBXBuildFile; fileRef = FB9BF7D8CF60B66C017B01D72E14A352 /* hi.lproj */; };
+		DDEDFE2A8C73DEC31359382F776ED7D3 /* TCVerifyCodeRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B0C61B218895187D67F560204F49FCE /* TCVerifyCodeRequest.m */; };
+		E1A660A93ADD4E5B287F7C9141ED9F6F /* TCVerifyCodeRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = DAEA5C9FEAA3C316F8E559388A383E0F /* TCVerifyCodeRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E1E759EFDBB85597564DA3265DDFDB7E /* TrueSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = C7D6164D8D87B739B63A62B3A4E610F0 /* TrueSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E1F84659FA24B3A6066A4E9CA25DB0AC /* TCVerificationState.h in Headers */ = {isa = PBXBuildFile; fileRef = C0828A483D2735910F6ADF514C95B0FF /* TCVerificationState.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E2D379557558428EC3F46369360B422D /* DisclaimerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 96B8CB1E540152DD9E0AB7ED8C6C17C6 /* DisclaimerView.m */; };
+		F122C91F6076E0758FCD83428B23EF47 /* TCGetProfileRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = E7B8902FAFC34FDE20C811F5AA1465A2 /* TCGetProfileRequest.m */; };
+		F82498A2E2744F66E59B5DEB793A715F /* TCError.m in Sources */ = {isa = PBXBuildFile; fileRef = C2DD1CF308DC62D839C4D5A472CB3335 /* TCError.m */; };
+		FC3160095E529AEA385A225394EC6470 /* TCGetProfileRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 6BBD6B6D8B41A3AFEB58C11733E4C6A5 /* TCGetProfileRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5E8E65E85CB9717254A8C094759F10F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6A2733D5840C607EDB7B16114EE03C14;
+			remoteInfo = TrueSDK;
+		};
+		E5E75AA21CD338A830CBBF3B7D3E40C6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5B95122F4011AEB1D8610164702394FD;
+			remoteInfo = "TrueSDK-TrueSDK";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00E2AB1BC09F1A8104274F4595465087 /* Pods-TruecallerSignin-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TruecallerSignin-acknowledgements.plist"; sourceTree = "<group>"; };
+		04F453B10C4B3BB4542D4156901418A6 /* TrueSDK-TrueSDK */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "TrueSDK-TrueSDK"; path = TrueSDK.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		07839CF4B9FFD8F249A4DF10CA16D573 /* TrueSDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TrueSDK-prefix.pch"; sourceTree = "<group>"; };
+		0CE1786EC18053314E76F8FBFFD8609E /* NSDictionary+TrueSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+TrueSDK.h"; path = "TrueSDK/Core/Categories/NSDictionary+TrueSDK.h"; sourceTree = "<group>"; };
+		0DEF79344E0053DA0FA24DE811215B7B /* TCLoginCodeRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TCLoginCodeRequest.m; path = TrueSDK/Core/Network/Requests/TCLoginCodeRequest.m; sourceTree = "<group>"; };
+		10D3FADEECE481AC048044F6C4834C39 /* DisclaimerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DisclaimerView.h; path = TrueSDK/Core/Views/DisclaimerView.h; sourceTree = "<group>"; };
+		234CA6EECB953454C54020432FB77B9D /* TCTrueProfileResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TCTrueProfileResponse.h; path = TrueSDK/Core/TCTrueProfileResponse.h; sourceTree = "<group>"; };
+		2DD806F246C3BA90C4FB040656D5D6B3 /* en.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = en.lproj; path = TrueSDK/External/Languages/en.lproj; sourceTree = "<group>"; };
+		2EE8535EFB8D7B5F511C7A57DC461EB1 /* ResourceBundle-TrueSDK-TrueSDK-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-TrueSDK-TrueSDK-Info.plist"; sourceTree = "<group>"; };
+		3113A02C2764B48EC503B8151415D87B /* TCProfileRequestButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TCProfileRequestButton.h; path = TrueSDK/External/TCProfileRequestButton.h; sourceTree = "<group>"; };
+		34B7A6B8B2B61669C38381EC75C9B7A3 /* NSDictionary+TrueSDK.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+TrueSDK.m"; path = "TrueSDK/Core/Categories/NSDictionary+TrueSDK.m"; sourceTree = "<group>"; };
+		395217FF3782CA8B58C89CE4439DCA27 /* TCUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TCUtils.h; path = TrueSDK/Core/TCUtils.h; sourceTree = "<group>"; };
+		3B0C61B218895187D67F560204F49FCE /* TCVerifyCodeRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TCVerifyCodeRequest.m; path = TrueSDK/Core/Network/Requests/TCVerifyCodeRequest.m; sourceTree = "<group>"; };
+		3B1E9CF5D1DB3E9BD960641EB5BF3948 /* TCBaseRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TCBaseRequest.h; path = TrueSDK/Core/Network/Requests/TCBaseRequest.h; sourceTree = "<group>"; };
+		3B6BCD077393FB4640A2CC520415D112 /* TCLoginCodeResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TCLoginCodeResponse.m; path = TrueSDK/Core/Network/Models/TCLoginCodeResponse.m; sourceTree = "<group>"; };
+		3C7D6A4F8BF636257D55239A3142E98F /* TCLoginCodeResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TCLoginCodeResponse.h; path = TrueSDK/Core/Network/Models/TCLoginCodeResponse.h; sourceTree = "<group>"; };
+		3EF1201B63DABB1FC4B4FD063FB3269A /* TCTrueProfile.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TCTrueProfile.m; path = TrueSDK/Core/TCTrueProfile.m; sourceTree = "<group>"; };
+		440B0564A1D46FD70EB0FF77BF12958C /* hr.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = hr.lproj; path = TrueSDK/External/Languages/hr.lproj; sourceTree = "<group>"; };
+		484A167E02B74510F5D15194A573EA92 /* NSURL+TrueSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSURL+TrueSDK.h"; path = "TrueSDK/Core/Categories/NSURL+TrueSDK.h"; sourceTree = "<group>"; };
+		49C140C99B248D77F49B7FB5F2978EE5 /* Assets.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = TrueSDK/External/Assets.xcassets; sourceTree = "<group>"; };
+		4BD8A72607C81C95B9E57337292F1976 /* TCTrueSDK.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TCTrueSDK.m; path = TrueSDK/External/TCTrueSDK.m; sourceTree = "<group>"; };
+		4DF6C896C52304EADCF8FC696E124940 /* TCTrueProfileRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TCTrueProfileRequest.m; path = TrueSDK/Core/TCTrueProfileRequest.m; sourceTree = "<group>"; };
+		57F595132F66459573EA937D7E4B17F1 /* TCUpdateProfileRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TCUpdateProfileRequest.m; path = TrueSDK/Core/Network/Requests/TCUpdateProfileRequest.m; sourceTree = "<group>"; };
+		5D5033C01BE6BE1ED3D2C2D059E78B1E /* TCTrueProfileResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TCTrueProfileResponse.m; path = TrueSDK/Core/TCTrueProfileResponse.m; sourceTree = "<group>"; };
+		61A5114646BD8811122AB6859E7285DF /* TCProfileRequestButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TCProfileRequestButton.m; path = TrueSDK/External/TCProfileRequestButton.m; sourceTree = "<group>"; };
+		61B55822A45C8C0DA73FD88088438FDE /* Pods-TruecallerSignin */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-TruecallerSignin"; path = Pods_TruecallerSignin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6575646042028033FE5C64E6E7B5E0B5 /* Pods-TruecallerSignin-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TruecallerSignin-umbrella.h"; sourceTree = "<group>"; };
+		6779A53BF97D9C827D5F593241DD498E /* TrueSDK */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TrueSDK; path = TrueSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BBD6B6D8B41A3AFEB58C11733E4C6A5 /* TCGetProfileRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TCGetProfileRequest.h; path = TrueSDK/Core/Network/Requests/TCGetProfileRequest.h; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7A374C3902CBD4C7B893DCE283CA76CD /* Pods-TruecallerSignin.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TruecallerSignin.modulemap"; sourceTree = "<group>"; };
+		7E07C8CAE00ABF30E1BACE0E6AEE8AA9 /* TCVersion.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TCVersion.m; path = TrueSDK/Core/TCVersion.m; sourceTree = "<group>"; };
+		80FD313AE22CC4E3DC09338F763C61E8 /* TCUpdateProfileRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TCUpdateProfileRequest.h; path = TrueSDK/Core/Network/Requests/TCUpdateProfileRequest.h; sourceTree = "<group>"; };
+		81246D46C1163CC906CEACB1AC00BEDD /* TCTrueSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TCTrueSDK.h; path = TrueSDK/External/TCTrueSDK.h; sourceTree = "<group>"; };
+		8B5B582653FE34751D9C4F9274A9F6A9 /* TCBaseRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TCBaseRequest.m; path = TrueSDK/Core/Network/Requests/TCBaseRequest.m; sourceTree = "<group>"; };
+		8DB76AC3EC33FB9C81C3F6DE3A2BD489 /* TCTrueProfile.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TCTrueProfile.h; path = TrueSDK/Core/TCTrueProfile.h; sourceTree = "<group>"; };
+		8E538F2491F4A014C13095C1E84E2E20 /* TrueSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TrueSDK.release.xcconfig; sourceTree = "<group>"; };
+		8EA4AB7FAACF57AE1CC506616E3AA9D8 /* TrueSDK-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TrueSDK-Info.plist"; sourceTree = "<group>"; };
+		94358026E3D782349A5B99B41B5F3A2D /* NSURL+TrueSDK.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSURL+TrueSDK.m"; path = "TrueSDK/Core/Categories/NSURL+TrueSDK.m"; sourceTree = "<group>"; };
+		96B8CB1E540152DD9E0AB7ED8C6C17C6 /* DisclaimerView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DisclaimerView.m; path = TrueSDK/Core/Views/DisclaimerView.m; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A08F9F3FF1C48A63402D1DF0995FC1B8 /* TCError.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TCError.h; path = TrueSDK/Core/TCError.h; sourceTree = "<group>"; };
+		A46CA5966A7C8D74CA2F464712B43727 /* Pods-TruecallerSignin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TruecallerSignin.release.xcconfig"; sourceTree = "<group>"; };
+		ACB5A73021915CA74FA420ECBF208E08 /* TCTrueProfileRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TCTrueProfileRequest.h; path = TrueSDK/Core/TCTrueProfileRequest.h; sourceTree = "<group>"; };
+		B043042839586C7CE3940385E61CAABA /* Pods-TruecallerSignin-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TruecallerSignin-Info.plist"; sourceTree = "<group>"; };
+		B1C58463CBCAF090139E3F0C3260864E /* TCUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TCUtils.m; path = TrueSDK/Core/TCUtils.m; sourceTree = "<group>"; };
+		BCC58D23A10240567ABAA33A9286E903 /* TrueSDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TrueSDK-dummy.m"; sourceTree = "<group>"; };
+		C0828A483D2735910F6ADF514C95B0FF /* TCVerificationState.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TCVerificationState.h; path = TrueSDK/Core/TCVerificationState.h; sourceTree = "<group>"; };
+		C2DD1CF308DC62D839C4D5A472CB3335 /* TCError.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TCError.m; path = TrueSDK/Core/TCError.m; sourceTree = "<group>"; };
+		C7D6164D8D87B739B63A62B3A4E610F0 /* TrueSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TrueSDK.h; path = TrueSDK/TrueSDK.h; sourceTree = "<group>"; };
+		D33C8B4BC9056ACD10DB57F97D502CB0 /* TCLoginCodeRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TCLoginCodeRequest.h; path = TrueSDK/Core/Network/Requests/TCLoginCodeRequest.h; sourceTree = "<group>"; };
+		DAB7ECF968292E99214142E2F7558295 /* Pods-TruecallerSignin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TruecallerSignin.debug.xcconfig"; sourceTree = "<group>"; };
+		DAEA5C9FEAA3C316F8E559388A383E0F /* TCVerifyCodeRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TCVerifyCodeRequest.h; path = TrueSDK/Core/Network/Requests/TCVerifyCodeRequest.h; sourceTree = "<group>"; };
+		E16C72E7871580F0A5F0619F68A8727A /* Pods-TruecallerSignin-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TruecallerSignin-dummy.m"; sourceTree = "<group>"; };
+		E7B8902FAFC34FDE20C811F5AA1465A2 /* TCGetProfileRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TCGetProfileRequest.m; path = TrueSDK/Core/Network/Requests/TCGetProfileRequest.m; sourceTree = "<group>"; };
+		F007DDA0103BC7AEBD2CA4905ABB3CCF /* TrueSDK-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TrueSDK-umbrella.h"; sourceTree = "<group>"; };
+		F4AB0BA9043FB83354EC16E5EFA4630A /* TCVersion.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TCVersion.h; path = TrueSDK/Core/TCVersion.h; sourceTree = "<group>"; };
+		F9541964455CF3716B46D43AB6905817 /* TrueSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TrueSDK.debug.xcconfig; sourceTree = "<group>"; };
+		FB9BF7D8CF60B66C017B01D72E14A352 /* hi.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = hi.lproj; path = TrueSDK/External/Languages/hi.lproj; sourceTree = "<group>"; };
+		FDD2494194024A08BCBBA1BA8C48B042 /* TCTrueSDKLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TCTrueSDKLogger.h; path = TrueSDK/Core/TCTrueSDKLogger.h; sourceTree = "<group>"; };
+		FE3C4C1902CB372970D28CAE29456AAE /* TrueSDK.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TrueSDK.modulemap; sourceTree = "<group>"; };
+		FFD030DE6C91DE4FF69464A4E7466471 /* Pods-TruecallerSignin-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TruecallerSignin-acknowledgements.markdown"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4461BDF1F8B4948D9D06ECD30F6CA0D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D83126998C65AC3FC43469E3CE224BB4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F70FED55AC134AAF7F32A302C89FA23 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFBD30A6316FF7CA680A3504A994BF2F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AEEE2CE0CBBC3718A6B4F69998D9FFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03810F23BA7D505A26318B6857D9C74E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				61B55822A45C8C0DA73FD88088438FDE /* Pods-TruecallerSignin */,
+				6779A53BF97D9C827D5F593241DD498E /* TrueSDK */,
+				04F453B10C4B3BB4542D4156901418A6 /* TrueSDK-TrueSDK */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0A20E858B819E7040E7DC8B44417C70D /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E19D407FEFED1532CF9B4C687CBDA317 /* Pods-TruecallerSignin */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		1549A3C81C5EF88BD1FF006CA32EF06A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2EE8535EFB8D7B5F511C7A57DC461EB1 /* ResourceBundle-TrueSDK-TrueSDK-Info.plist */,
+				FE3C4C1902CB372970D28CAE29456AAE /* TrueSDK.modulemap */,
+				BCC58D23A10240567ABAA33A9286E903 /* TrueSDK-dummy.m */,
+				8EA4AB7FAACF57AE1CC506616E3AA9D8 /* TrueSDK-Info.plist */,
+				07839CF4B9FFD8F249A4DF10CA16D573 /* TrueSDK-prefix.pch */,
+				F007DDA0103BC7AEBD2CA4905ABB3CCF /* TrueSDK-umbrella.h */,
+				F9541964455CF3716B46D43AB6905817 /* TrueSDK.debug.xcconfig */,
+				8E538F2491F4A014C13095C1E84E2E20 /* TrueSDK.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/TrueSDK";
+			sourceTree = "<group>";
+		};
+		26A07495BD26B44508B49AD75DF2EFB3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6816DC7D22CBE0ABE571B9DD4A4341FE /* TrueSDK */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4369C391335527A17FBF74327C4CE4B0 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				49C140C99B248D77F49B7FB5F2978EE5 /* Assets.xcassets */,
+				2DD806F246C3BA90C4FB040656D5D6B3 /* en.lproj */,
+				FB9BF7D8CF60B66C017B01D72E14A352 /* hi.lproj */,
+				440B0564A1D46FD70EB0FF77BF12958C /* hr.lproj */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		6816DC7D22CBE0ABE571B9DD4A4341FE /* TrueSDK */ = {
+			isa = PBXGroup;
+			children = (
+				10D3FADEECE481AC048044F6C4834C39 /* DisclaimerView.h */,
+				96B8CB1E540152DD9E0AB7ED8C6C17C6 /* DisclaimerView.m */,
+				0CE1786EC18053314E76F8FBFFD8609E /* NSDictionary+TrueSDK.h */,
+				34B7A6B8B2B61669C38381EC75C9B7A3 /* NSDictionary+TrueSDK.m */,
+				484A167E02B74510F5D15194A573EA92 /* NSURL+TrueSDK.h */,
+				94358026E3D782349A5B99B41B5F3A2D /* NSURL+TrueSDK.m */,
+				3B1E9CF5D1DB3E9BD960641EB5BF3948 /* TCBaseRequest.h */,
+				8B5B582653FE34751D9C4F9274A9F6A9 /* TCBaseRequest.m */,
+				A08F9F3FF1C48A63402D1DF0995FC1B8 /* TCError.h */,
+				C2DD1CF308DC62D839C4D5A472CB3335 /* TCError.m */,
+				6BBD6B6D8B41A3AFEB58C11733E4C6A5 /* TCGetProfileRequest.h */,
+				E7B8902FAFC34FDE20C811F5AA1465A2 /* TCGetProfileRequest.m */,
+				D33C8B4BC9056ACD10DB57F97D502CB0 /* TCLoginCodeRequest.h */,
+				0DEF79344E0053DA0FA24DE811215B7B /* TCLoginCodeRequest.m */,
+				3C7D6A4F8BF636257D55239A3142E98F /* TCLoginCodeResponse.h */,
+				3B6BCD077393FB4640A2CC520415D112 /* TCLoginCodeResponse.m */,
+				3113A02C2764B48EC503B8151415D87B /* TCProfileRequestButton.h */,
+				61A5114646BD8811122AB6859E7285DF /* TCProfileRequestButton.m */,
+				8DB76AC3EC33FB9C81C3F6DE3A2BD489 /* TCTrueProfile.h */,
+				3EF1201B63DABB1FC4B4FD063FB3269A /* TCTrueProfile.m */,
+				ACB5A73021915CA74FA420ECBF208E08 /* TCTrueProfileRequest.h */,
+				4DF6C896C52304EADCF8FC696E124940 /* TCTrueProfileRequest.m */,
+				234CA6EECB953454C54020432FB77B9D /* TCTrueProfileResponse.h */,
+				5D5033C01BE6BE1ED3D2C2D059E78B1E /* TCTrueProfileResponse.m */,
+				81246D46C1163CC906CEACB1AC00BEDD /* TCTrueSDK.h */,
+				4BD8A72607C81C95B9E57337292F1976 /* TCTrueSDK.m */,
+				FDD2494194024A08BCBBA1BA8C48B042 /* TCTrueSDKLogger.h */,
+				80FD313AE22CC4E3DC09338F763C61E8 /* TCUpdateProfileRequest.h */,
+				57F595132F66459573EA937D7E4B17F1 /* TCUpdateProfileRequest.m */,
+				395217FF3782CA8B58C89CE4439DCA27 /* TCUtils.h */,
+				B1C58463CBCAF090139E3F0C3260864E /* TCUtils.m */,
+				C0828A483D2735910F6ADF514C95B0FF /* TCVerificationState.h */,
+				DAEA5C9FEAA3C316F8E559388A383E0F /* TCVerifyCodeRequest.h */,
+				3B0C61B218895187D67F560204F49FCE /* TCVerifyCodeRequest.m */,
+				F4AB0BA9043FB83354EC16E5EFA4630A /* TCVersion.h */,
+				7E07C8CAE00ABF30E1BACE0E6AEE8AA9 /* TCVersion.m */,
+				C7D6164D8D87B739B63A62B3A4E610F0 /* TrueSDK.h */,
+				4369C391335527A17FBF74327C4CE4B0 /* Resources */,
+				1549A3C81C5EF88BD1FF006CA32EF06A /* Support Files */,
+			);
+			name = TrueSDK;
+			path = TrueSDK;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				26A07495BD26B44508B49AD75DF2EFB3 /* Pods */,
+				03810F23BA7D505A26318B6857D9C74E /* Products */,
+				0A20E858B819E7040E7DC8B44417C70D /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E19D407FEFED1532CF9B4C687CBDA317 /* Pods-TruecallerSignin */ = {
+			isa = PBXGroup;
+			children = (
+				7A374C3902CBD4C7B893DCE283CA76CD /* Pods-TruecallerSignin.modulemap */,
+				FFD030DE6C91DE4FF69464A4E7466471 /* Pods-TruecallerSignin-acknowledgements.markdown */,
+				00E2AB1BC09F1A8104274F4595465087 /* Pods-TruecallerSignin-acknowledgements.plist */,
+				E16C72E7871580F0A5F0619F68A8727A /* Pods-TruecallerSignin-dummy.m */,
+				B043042839586C7CE3940385E61CAABA /* Pods-TruecallerSignin-Info.plist */,
+				6575646042028033FE5C64E6E7B5E0B5 /* Pods-TruecallerSignin-umbrella.h */,
+				DAB7ECF968292E99214142E2F7558295 /* Pods-TruecallerSignin.debug.xcconfig */,
+				A46CA5966A7C8D74CA2F464712B43727 /* Pods-TruecallerSignin.release.xcconfig */,
+			);
+			name = "Pods-TruecallerSignin";
+			path = "Target Support Files/Pods-TruecallerSignin";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		153E0B513B1EE9E527870A0483531782 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51F8146A05C0806193E95A89C19ED466 /* DisclaimerView.h in Headers */,
+				52DF1F5C200575819E2A81D1FE255243 /* NSDictionary+TrueSDK.h in Headers */,
+				4C0966E445EFF97A5624C132DD46F97F /* NSURL+TrueSDK.h in Headers */,
+				43DEDA3AFF4B92921C8B68E3AA0B9F27 /* TCBaseRequest.h in Headers */,
+				974AB0F0B89F87ACAD25EC2A8017647C /* TCError.h in Headers */,
+				FC3160095E529AEA385A225394EC6470 /* TCGetProfileRequest.h in Headers */,
+				7648D0B7D4A05F6DA1BFEF777FCDC147 /* TCLoginCodeRequest.h in Headers */,
+				A260F58689EDF286799C1DF50D6E9EA9 /* TCLoginCodeResponse.h in Headers */,
+				9D071037DF752FDEC00E5F44F6D17F53 /* TCProfileRequestButton.h in Headers */,
+				4B5B159606543E3B5A77902759D4DFCF /* TCTrueProfile.h in Headers */,
+				4D155E651A1CB152D87D8BA12FEA33D8 /* TCTrueProfileRequest.h in Headers */,
+				408363DC692177155077BC2985A727C9 /* TCTrueProfileResponse.h in Headers */,
+				42028AE0FDD0FEBB103621832899D47B /* TCTrueSDK.h in Headers */,
+				C1BB986C5F77DB3B9EC884D373F6C04D /* TCTrueSDKLogger.h in Headers */,
+				189E6EA992E20A230E7C939EEF07C1F7 /* TCUpdateProfileRequest.h in Headers */,
+				A8A6522876832428A732ACCCB92F5693 /* TCUtils.h in Headers */,
+				E1F84659FA24B3A6066A4E9CA25DB0AC /* TCVerificationState.h in Headers */,
+				E1A660A93ADD4E5B287F7C9141ED9F6F /* TCVerifyCodeRequest.h in Headers */,
+				6889158A029CD4A86F51B14ED47A3CBF /* TCVersion.h in Headers */,
+				E1E759EFDBB85597564DA3265DDFDB7E /* TrueSDK.h in Headers */,
+				905FD44B879FA7B73F583D90276C1DA0 /* TrueSDK-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7C5C494F1A2484E007A60B01D1B5A8F0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9EA4DD9CBA141BE8FFCD67A68E5F1A3 /* Pods-TruecallerSignin-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		5B95122F4011AEB1D8610164702394FD /* TrueSDK-TrueSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D25AC51932D8A75D60206438AD75D83 /* Build configuration list for PBXNativeTarget "TrueSDK-TrueSDK" */;
+			buildPhases = (
+				C93D861D8A69952B0FC3A75366D92C53 /* Sources */,
+				5AEEE2CE0CBBC3718A6B4F69998D9FFF /* Frameworks */,
+				BF274982121A01D75C44C3AC6B5CB149 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TrueSDK-TrueSDK";
+			productName = TrueSDK;
+			productReference = 04F453B10C4B3BB4542D4156901418A6 /* TrueSDK-TrueSDK */;
+			productType = "com.apple.product-type.bundle";
+		};
+		6A2733D5840C607EDB7B16114EE03C14 /* TrueSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B1148FCF4514B0957281CC5BA8E3AD2 /* Build configuration list for PBXNativeTarget "TrueSDK" */;
+			buildPhases = (
+				153E0B513B1EE9E527870A0483531782 /* Headers */,
+				A6759FD111C29452CC4C3234D30BD5D5 /* Sources */,
+				4F70FED55AC134AAF7F32A302C89FA23 /* Frameworks */,
+				88D5FDEF872F4F0BD6D53A0463227C93 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E1762CF436747CAB9294A33E28B2B882 /* PBXTargetDependency */,
+			);
+			name = TrueSDK;
+			productName = TrueSDK;
+			productReference = 6779A53BF97D9C827D5F593241DD498E /* TrueSDK */;
+			productType = "com.apple.product-type.framework";
+		};
+		C0E21B81599D6295905666B7ABA9403F /* Pods-TruecallerSignin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E23C1A6F8A9E09E5C06F79919CB13346 /* Build configuration list for PBXNativeTarget "Pods-TruecallerSignin" */;
+			buildPhases = (
+				7C5C494F1A2484E007A60B01D1B5A8F0 /* Headers */,
+				318D963ADD56E7B721749AB4851E83E8 /* Sources */,
+				4461BDF1F8B4948D9D06ECD30F6CA0D9 /* Frameworks */,
+				407AE683F93FC66C2F3173DA23B64772 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				75E5983BE50C3164CBFBA05D6AA3992E /* PBXTargetDependency */,
+			);
+			name = "Pods-TruecallerSignin";
+			productName = Pods_TruecallerSignin;
+			productReference = 61B55822A45C8C0DA73FD88088438FDE /* Pods-TruecallerSignin */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+				hi,
+				hr,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 03810F23BA7D505A26318B6857D9C74E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C0E21B81599D6295905666B7ABA9403F /* Pods-TruecallerSignin */,
+				6A2733D5840C607EDB7B16114EE03C14 /* TrueSDK */,
+				5B95122F4011AEB1D8610164702394FD /* TrueSDK-TrueSDK */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		407AE683F93FC66C2F3173DA23B64772 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88D5FDEF872F4F0BD6D53A0463227C93 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DACC18256034826BCB05569C6DA2256 /* Assets.xcassets in Resources */,
+				0C8E1784FF8D466F9685DF5190E07738 /* TrueSDK-TrueSDK in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF274982121A01D75C44C3AC6B5CB149 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82864B02BCFBC3290D750C101A269D9A /* en.lproj in Resources */,
+				D8F03D3B57D30A0D7AF6EBE84361EAF8 /* hi.lproj in Resources */,
+				D1E09819F90B42B1355A40BA5CC885AF /* hr.lproj in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		318D963ADD56E7B721749AB4851E83E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6221A95519B4DF74BAC2319381E69650 /* Pods-TruecallerSignin-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6759FD111C29452CC4C3234D30BD5D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2D379557558428EC3F46369360B422D /* DisclaimerView.m in Sources */,
+				9B2225C9109418D84AF788841BF3C863 /* NSDictionary+TrueSDK.m in Sources */,
+				44C8A6085629D882EC5D804E246170C7 /* NSURL+TrueSDK.m in Sources */,
+				B3CFDADD7640D18A2A9A5C8951731409 /* TCBaseRequest.m in Sources */,
+				F82498A2E2744F66E59B5DEB793A715F /* TCError.m in Sources */,
+				F122C91F6076E0758FCD83428B23EF47 /* TCGetProfileRequest.m in Sources */,
+				75B92C411945486F10B409D7F2A85971 /* TCLoginCodeRequest.m in Sources */,
+				A6CFD6B4B0E8CFB6AAD164BF0DBC2D3A /* TCLoginCodeResponse.m in Sources */,
+				9AF3751D4330C8D4833151A98AC8069C /* TCProfileRequestButton.m in Sources */,
+				7F431BE0945619638639D3ABB92335BD /* TCTrueProfile.m in Sources */,
+				AE2CBD236AEFD24D8D13C1DF0C55DA63 /* TCTrueProfileRequest.m in Sources */,
+				5AEACEBC092C610B4D71124B268B4440 /* TCTrueProfileResponse.m in Sources */,
+				10167B09A68B6B9E3C510D012FAFF780 /* TCTrueSDK.m in Sources */,
+				B4D14DF1D1E431626D36A213BDBC3CD1 /* TCUpdateProfileRequest.m in Sources */,
+				2CAF8377CB965C4B684ED21B8C86EDD3 /* TCUtils.m in Sources */,
+				DDEDFE2A8C73DEC31359382F776ED7D3 /* TCVerifyCodeRequest.m in Sources */,
+				3A1395072F35461019524FD99A4E0ED8 /* TCVersion.m in Sources */,
+				AC86A7C4FF0111412CB7D87B5ABD3EB8 /* TrueSDK-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C93D861D8A69952B0FC3A75366D92C53 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		75E5983BE50C3164CBFBA05D6AA3992E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TrueSDK;
+			target = 6A2733D5840C607EDB7B16114EE03C14 /* TrueSDK */;
+			targetProxy = 5E8E65E85CB9717254A8C094759F10F9 /* PBXContainerItemProxy */;
+		};
+		E1762CF436747CAB9294A33E28B2B882 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "TrueSDK-TrueSDK";
+			target = 5B95122F4011AEB1D8610164702394FD /* TrueSDK-TrueSDK */;
+			targetProxy = E5E75AA21CD338A830CBBF3B7D3E40C6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		166F2DEA285BE6B456CEBB027E4A02B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E538F2491F4A014C13095C1E84E2E20 /* TrueSDK.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TrueSDK/TrueSDK-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TrueSDK/TrueSDK-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TrueSDK/TrueSDK.modulemap";
+				PRODUCT_MODULE_NAME = TrueSDK;
+				PRODUCT_NAME = TrueSDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1BFE7FEDCBB00557224AF8A2E4BE3135 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9541964455CF3716B46D43AB6905817 /* TrueSDK.debug.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/TrueSDK";
+				IBSC_MODULE = TrueSDK;
+				INFOPLIST_FILE = "Target Support Files/TrueSDK/ResourceBundle-TrueSDK-TrueSDK-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = TrueSDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		1F9D218687B4D4A9D92999395FBAA73C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A46CA5966A7C8D74CA2F464712B43727 /* Pods-TruecallerSignin.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TruecallerSignin/Pods-TruecallerSignin-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TruecallerSignin/Pods-TruecallerSignin.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6D42DC62C4F2E194221DF89C48496C98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		A43DD9F68C3751620C779E92C8A94EDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E538F2491F4A014C13095C1E84E2E20 /* TrueSDK.release.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/TrueSDK";
+				IBSC_MODULE = TrueSDK;
+				INFOPLIST_FILE = "Target Support Files/TrueSDK/ResourceBundle-TrueSDK-TrueSDK-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = TrueSDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		BD6945B75BA2DCD32F083C90AB8806ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9541964455CF3716B46D43AB6905817 /* TrueSDK.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TrueSDK/TrueSDK-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TrueSDK/TrueSDK-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TrueSDK/TrueSDK.modulemap";
+				PRODUCT_MODULE_NAME = TrueSDK;
+				PRODUCT_NAME = TrueSDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CE204FF6897922A01AEBCCBB9F7B5348 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DAB7ECF968292E99214142E2F7558295 /* Pods-TruecallerSignin.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TruecallerSignin/Pods-TruecallerSignin-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TruecallerSignin/Pods-TruecallerSignin.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E4D0D44B090D4284607EBBC4E71A96C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3D25AC51932D8A75D60206438AD75D83 /* Build configuration list for PBXNativeTarget "TrueSDK-TrueSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1BFE7FEDCBB00557224AF8A2E4BE3135 /* Debug */,
+				A43DD9F68C3751620C779E92C8A94EDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4D0D44B090D4284607EBBC4E71A96C1 /* Debug */,
+				6D42DC62C4F2E194221DF89C48496C98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B1148FCF4514B0957281CC5BA8E3AD2 /* Build configuration list for PBXNativeTarget "TrueSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD6945B75BA2DCD32F083C90AB8806ED /* Debug */,
+				166F2DEA285BE6B456CEBB027E4A02B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E23C1A6F8A9E09E5C06F79919CB13346 /* Build configuration list for PBXNativeTarget "Pods-TruecallerSignin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE204FF6897922A01AEBCCBB9F7B5348 /* Debug */,
+				1F9D218687B4D4A9D92999395FBAA73C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

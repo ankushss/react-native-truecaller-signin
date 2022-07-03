@@ -7,6 +7,7 @@ buildscript {
   repositories {
       google()
       mavenCentral()
+      jcenter()
   }
 
   dependencies {
@@ -60,6 +61,7 @@ android {
 repositories {
   mavenCentral()
   google()
+  jcenter()
 
   def found = false
   def defaultDir = null
@@ -137,4 +139,5 @@ dependencies {
 
   implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
 // From node_modules
+  implementation "com.truecaller.android.sdk:truecaller-sdk:2.6.0"
 }
